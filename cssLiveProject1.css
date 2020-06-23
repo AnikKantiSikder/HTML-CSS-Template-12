@@ -1,0 +1,74 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Utility class starts here*/
+.img_responsive{
+   max-width: 100%;
+    
+}
+/* Utility class ends here*/
+
+/* Main_image section starts here*/ 
+.main_image{
+    background: url(fury.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.main_div{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main_div h1{
+    font-size: 2.4rem;
+    text-align: center;
+}
+.main_div span{
+    margin-left: 5rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+.form_name .movie_name{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .6rem;
+    border: none;
+    outline: none;
+    background-color: white;
+    text-align: center;
+}
+.form_name button{
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(37, 226, 226);
+    color: black;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    padding: .6rem;
+    border: none;
+    outline: none;
+}
+/* Main_image section ends here*/
+
+/*ProductList  section starts here*/
+.productList{
+   
+    margin-left: auto;
+    margin-right: auto;
+}
+.product{
+
+    float: left;
+    margin-left: 0.5rem;
+}
+/* ProductList section ends here*/
